@@ -1,0 +1,84 @@
+.sidebar {
+    width: 280px;
+    background: #0f172a;
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #1f2937;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #1f2937;
+    gap: 8px;
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #cbd5e1;
+}
+
+button.logout {
+    background: #ef4444;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button.logout:hover {
+    background: #dc2626;
+}
+
+.session-list {
+    list-style: none;
+    margin: 0;
+    padding: 8px;
+    overflow: auto;
+    flex: 1;
+}
+
+.session-list li {
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #94a3b8;
+}
+
+.session-list li:hover {
+    background: #1f2937;
+    color: #fff;
+}
+
+.session-list li.active {
+    background: #334155;
+    color: #fff;
+}
+
+.session-list li.empty {
+    color: #64748b;
+    cursor: default;
+}
+
+.sidebar-actions {
+    display: flex;
+    gap: 8px;
+}
+
+button.new-session {
+    background: #14b8a6;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button.new-session:hover {
+    background: #0d9488;
+}
