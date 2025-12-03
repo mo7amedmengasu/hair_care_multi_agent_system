@@ -1,5 +1,10 @@
 # Hair Care Multi-Agent System
 
+**Demo Video:** 
+
+
+<video src="./demo.mp4" controls width="800"></video> 
+
 A full-stack application featuring a modern React chatbot UI, a Node/Express backend for user/session management (MongoDB), and a FastAPI-based AI service that generates HTML responses and supports image analysis.
 
 ## Overview
