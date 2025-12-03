@@ -105,5 +105,3 @@ AI Service (FastAPI)
 - 500 from AI: verify image path exists and API keys are set.
 - Login 401: confirm user exists; registration normalizes email to lowercase.
 
-## License
-Private/internal project. Do not distribute.
