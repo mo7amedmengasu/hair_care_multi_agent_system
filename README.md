@@ -1,6 +1,11 @@
 # Hair Care Multi-Agent System
 A full-stack application featuring a modern React chatbot UI, a Node/Express backend for user/session management (MongoDB), and a FastAPI-based AI service that generates HTML responses and supports image analysis.
 
+
+## Architecture
+
+![Agent Architecture](./agent_arch.png)
+
 ## Overview
 - Frontend: Vite + React (modern CSS, axios)
 - Backend: Node.js + Express + Mongoose (users, chats, sessions)
@@ -93,12 +98,7 @@ AI Service (FastAPI)
 - Backend enables CORS for `http://localhost:5173`.
 - AI service enables CORS similarly.
 
-## Architecture
-Add your architecture diagram image below (exported PNG/JPG):
 
-![Agent Architecture](./agent_arch.png)
-
-> Replace the path with your actual diagram file.
 
 ## Troubleshooting
 - 422 from `/get-final-answer`: ensure you send `{ task, image_path: '', history: [] }` at minimum.
